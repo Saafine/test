@@ -8,9 +8,9 @@ export abstract class Test2Base {
 
   // constructor(private service: TestService1Service) {}
 
+  console.log('hey from abstract where we call injected service');
+  this.service.test1();
   test2Base2() {
-    console.log('hey from abstract where we call injected service');
-    this.service.test1();
   }
 
 }
