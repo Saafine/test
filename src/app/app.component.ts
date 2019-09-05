@@ -7,5 +7,5 @@ import { FormControl, Validator, Validators } from '@angular/forms';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public control = new FormControl('xxx', Validators.required);
+  public control = new FormControl(155555325, Validators.required);
 }
