@@ -1,0 +1,6 @@
+Child 2
+<input [formControl]="form.get('a')"/>
+<input [formControl]="form.get('b')"/>
+
+a -> {{ form.get('a').touched }}
+b -> {{ form.get('b').touched }}
